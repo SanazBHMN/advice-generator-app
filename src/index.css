@@ -5,15 +5,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 :root {
-  --color-primary: hsl(193, 38%, 86%);
-  --color-secondary: hsl(150, 100%, 66%);
-  --text-primary: hsl(217, 19%, 38%);
-  --text-secondary: hsl(217, 19%, 24%);
+  --color-primary: hsl(217, 19%, 24%);
+  --color-secondary: hsl(217, 19%, 38%);
+  --text-primary: hsl(193, 38%, 86%);
+  --text-secondary: hsl(150, 100%, 66%);
 }
 
 body {
   margin: 0;
   font-family: "Manrope", sans-serif;
+  background-color: var(--color-primary);
 }
 
 code {

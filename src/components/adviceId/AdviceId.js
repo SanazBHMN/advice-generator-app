@@ -1,3 +1,9 @@
 export const AdviceId = ({ adviceId }) => {
-  return <div>AdviceId</div>;
+  return (
+    <>
+      <p className="text-text-secondary text-center tracking-widest">
+        ADVICE #{adviceId} 117
+      </p>
+    </>
+  );
 };

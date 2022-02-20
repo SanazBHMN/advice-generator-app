@@ -4,7 +4,7 @@ import { AdviceId } from "../adviceId/AdviceId";
 
 export const AdviceCard = () => {
   return (
-    <div>
+    <div className="w-11/12 flex flex-col bg-color-secondary px-3 py-6 m-auto rounded-lg sm:w-96">
       <AdviceId />
       <Advice />
       <AdviceGenerator />
