@@ -2,7 +2,7 @@ import { DiceIcon } from "../../icons/DiceIcon";
 
 export const AdviceGenerator = ({ adviceId }) => {
   return (
-    <div className="flex justify-center align-middle -mb-14">
+    <div className="flex justify-center align-middle -mb-14 mt-6">
       <button className="w-16 h-16 grid place-items-center  bg-text-secondary rounded-full">
         <DiceIcon />
       </button>
