@@ -9,6 +9,9 @@ module.exports = {
         "text-secondary": "var(--text-secondary)",
       },
     },
+    fontSize: {
+      'md': "1.75rem",
+    },
   },
   plugins: [],
 };
