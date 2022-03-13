@@ -19,7 +19,7 @@ export const AdviceCard = () => {
   };
 
   return (
-    <div className="w-11/12 flex flex-col bg-color-secondary px-3 py-6 mx-auto mb-14 rounded-lg sm:w-96">
+    <div className="max-w-xs flex flex-col bg-color-secondary px-3 py-6 mx-auto mb-14 rounded-lg sm:max-w-md">
       <AdviceId adviceId={adviceId} />
       <Advice advice={advice} />
       <div className="block sm:hidden">
