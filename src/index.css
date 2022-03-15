@@ -16,8 +16,3 @@ body {
   font-family: "Manrope", sans-serif;
   background-color: var(--color-primary);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}

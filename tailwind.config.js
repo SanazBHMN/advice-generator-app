@@ -9,6 +9,15 @@ module.exports = {
         "text-secondary": "var(--text-secondary)",
       },
     },
+    fontSize: {
+      md: "1.75rem",
+    },
+    boxShadow: {
+      "3xl": "0px 0px 25px 0px hsl(150deg 100% 66%)",
+    },
+    letterSpacing: {
+      widest: "5px"
+    }
   },
   plugins: [],
 };
