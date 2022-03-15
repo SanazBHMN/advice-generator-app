@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 :root {
-  --color-primary: hsl(217, 19%, 24%);
-  --color-secondary: hsl(217, 19%, 38%);
+  --color-primary: hsl(218, 23%, 16%);
+  --color-secondary: hsl(217, 19%, 24%);
   --text-primary: hsl(193, 38%, 86%);
   --text-secondary: hsl(150, 100%, 66%);
 }
