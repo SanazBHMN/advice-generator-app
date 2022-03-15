@@ -4,7 +4,6 @@ import { AdviceGenerator } from "../adviceGenerator/AdviceGenerator";
 import { AdviceId } from "../adviceId/AdviceId";
 import mobileDivider from "../../images/pattern-divider-mobile.svg";
 import desktopDivider from "../../images/pattern-divider-desktop.svg";
-import { HorizontalLine } from "../line/HorizontalLine";
 
 export const AdviceCard = () => {
   const [adviceId, setAdviceId] = useState("");
@@ -33,14 +32,10 @@ export const AdviceCard = () => {
       <AdviceId adviceId={adviceId} />
       <Advice advice={advice} />
       <div className="block relative sm:hidden">
-        <HorizontalLine classes={"w-28 left-2"} />
         <img src={mobileDivider} />
-        <HorizontalLine classes={"w-28 right-2"} />
       </div>
       <div className="hidden relative sm:block">
-        <HorizontalLine classes={"w-40 left-2"} />
         <img src={desktopDivider} />
-        <HorizontalLine classes={"w-40 right-2"} />
       </div>
       <AdviceGenerator handleClick={handleClick} />
     </div>
